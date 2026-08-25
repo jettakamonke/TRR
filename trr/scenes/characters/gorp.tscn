@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bfilaky65biws"]
+
+[ext_resource type="Texture2D" uid="uid://drvhrxuqu7s3q" path="res://Image Assets/characters/gorptemp.png" id="1_81536"]
+
+[node name="Gorp" type="Sprite2D" unique_id=2041170698]
+texture = ExtResource("1_81536")

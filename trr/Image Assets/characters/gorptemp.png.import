@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baj17il5x1kcl"
-path="res://.godot/imported/enem3placeholder.png-1f45c5895afda507d79cc3fc646bf715.ctex"
+uid="uid://drvhrxuqu7s3q"
+path="res://.godot/imported/gorptemp.png-5f1611c0b744221865f59ba2caa88565.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Image Assets/enem3placeholder.png"
-dest_files=["res://.godot/imported/enem3placeholder.png-1f45c5895afda507d79cc3fc646bf715.ctex"]
+source_file="res://Image Assets/characters/gorptemp.png"
+dest_files=["res://.godot/imported/gorptemp.png-5f1611c0b744221865f59ba2caa88565.ctex"]
 
 [params]
 

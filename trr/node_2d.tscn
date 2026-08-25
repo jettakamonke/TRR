@@ -1,8 +1,19 @@
 [gd_scene format=3 uid="uid://dxidsgjlf2ung"]
 
-[ext_resource type="Texture2D" uid="uid://bocdjaln6urgn" path="res://icon.svg" id="1_wtcfe"]
+[ext_resource type="PackedScene" uid="uid://bfilaky65biws" path="res://scenes/characters/gorp.tscn" id="1_epypp"]
+[ext_resource type="PackedScene" uid="uid://y102mo4flfu" path="res://scenes/characters/monke.tscn" id="2_0hol4"]
+[ext_resource type="PackedScene" uid="uid://ccqo0vjihlel3" path="res://scenes/characters/buketboi.tscn" id="3_q6r6c"]
 
 [node name="Node2D" type="Node2D" unique_id=427767952]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=495650157]
-texture = ExtResource("1_wtcfe")
+[node name="Gorp" parent="." unique_id=2041170698 instance=ExtResource("1_epypp")]
+position = Vector2(-251, 0)
+
+[node name="Monke" parent="." unique_id=423925532 instance=ExtResource("2_0hol4")]
+rotation = 0.0
+
+[node name="BuketBoi" parent="." unique_id=103670918 instance=ExtResource("3_q6r6c")]
+position = Vector2(246, 0)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=912373431]
+position = Vector2(50, -17)

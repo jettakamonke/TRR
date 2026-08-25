@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://y102mo4flfu"]
+
+[ext_resource type="Texture2D" uid="uid://b8vrxohvyg7tn" path="res://Image Assets/characters/monketemp.png" id="1_30omw"]
+
+[node name="Monke" type="Sprite2D" unique_id=2041170698]
+rotation = -0.6632251
+texture = ExtResource("1_30omw")

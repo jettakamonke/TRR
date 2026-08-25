@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drcf2o6od4vmw"
-path="res://.godot/imported/foreground.png-f94efc694ec9d2558e714606223d2028.ctex"
+uid="uid://dwsbko57ot1s0"
+path="res://.godot/imported/buketboi.png-b18ce11c4a1774a524e77d0cb73bf939.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Image Assets/foreground.png"
-dest_files=["res://.godot/imported/foreground.png-f94efc694ec9d2558e714606223d2028.ctex"]
+source_file="res://Image Assets/characters/buketboi.png"
+dest_files=["res://.godot/imported/buketboi.png-b18ce11c4a1774a524e77d0cb73bf939.ctex"]
 
 [params]
 
