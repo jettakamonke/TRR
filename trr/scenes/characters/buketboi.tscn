@@ -2,5 +2,10 @@
 
 [ext_resource type="Texture2D" uid="uid://dwsbko57ot1s0" path="res://Image Assets/characters/buketboi.png" id="1_yil1x"]
 
-[node name="BuketBoi" type="Sprite2D" unique_id=2041170698]
+[sub_resource type="SpriteFrames" id="SpriteFrames_yf5fn"]
+
+[node name="BuketBoi" type="AnimatedSprite2D" unique_id=606669309]
+sprite_frames = SubResource("SpriteFrames_yf5fn")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1763449619]
 texture = ExtResource("1_yil1x")
