@@ -13,12 +13,16 @@ config_version=5
 config/name="TRR"
 run/main_scene="uid://dxidsgjlf2ung"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
+
+[autoload]
+
+Globalvariables="*uid://cy35etbep5sc"
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+window/vsync/vsync_mode=0
 
 [physics]
 

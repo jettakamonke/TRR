@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dxidsgjlf2ung"]
+
+[ext_resource type="Texture2D" uid="uid://c2lipcmpa81vt" path="res://Image Assets/play.png" id="1_i5qic"]
+[ext_resource type="Texture2D" uid="uid://crmlrpnv8aw51" path="res://Image Assets/play1.png" id="2_12kdf"]
+[ext_resource type="Texture2D" uid="uid://cjgpd0h4426qo" path="res://Image Assets/play2.png" id="3_xwd2w"]
+[ext_resource type="Script" uid="uid://deqf12wquqeq3" path="res://texture_button.gd" id="4_12kdf"]
+[ext_resource type="Texture2D" uid="uid://br4q1tidyidr0" path="res://Image Assets/title.png" id="5_xwd2w"]
+
+[node name="Node2D" type="Node2D" unique_id=427767952]
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=665539032]
+offset_left = 326.0
+offset_top = 365.0
+offset_right = 806.0
+offset_bottom = 635.0
+texture_normal = ExtResource("1_i5qic")
+texture_pressed = ExtResource("2_12kdf")
+texture_hover = ExtResource("3_xwd2w")
+script = ExtResource("4_12kdf")
+
+[node name="Title" type="Sprite2D" parent="." unique_id=415305794]
+position = Vector2(558, 179)
+scale = Vector2(0.5083333, 0.5083333)
+texture = ExtResource("5_xwd2w")
+
+[connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]

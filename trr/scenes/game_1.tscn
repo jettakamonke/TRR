@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://b8rag2u8lxtq6"]
+
+[ext_resource type="Texture2D" uid="uid://ckjrsaqcyhykf" path="res://Image Assets/choose.png" id="1_8lody"]
+[ext_resource type="Script" uid="uid://bhph0klhhbpn3" path="res://scenes/choose.gd" id="2_6pa5a"]
+[ext_resource type="Script" uid="uid://bxtrn46ja7cx1" path="res://scenes/gorpchoose.gd" id="2_pncae"]
+[ext_resource type="Script" uid="uid://bj5l4on28ksv1" path="res://scenes/bucketchoose.gd" id="3_7gu72"]
+[ext_resource type="Script" uid="uid://bnhr7sdvsowq5" path="res://scenes/monkechoose.gd" id="4_neyee"]
+
+[node name="Game1" type="Node2D" unique_id=1272799057]
+position = Vector2(-4, 9)
+
+[node name="Choose" type="Sprite2D" parent="." unique_id=631054844]
+position = Vector2(580, 315)
+texture = ExtResource("1_8lody")
+
+[node name="choose" type="Button" parent="Choose" unique_id=1528092388]
+offset_left = -206.0
+offset_top = -294.0
+offset_right = 219.0
+offset_bottom = -157.0
+script = ExtResource("2_6pa5a")
+
+[node name="gorp" type="Button" parent="." unique_id=1433859919]
+offset_left = 392.0
+offset_top = 197.0
+offset_right = 760.0
+offset_bottom = 638.0
+flat = true
+script = ExtResource("2_pncae")
+
+[node name="bucket" type="Button" parent="." unique_id=633235571]
+offset_left = 844.0
+offset_top = 161.0
+offset_right = 1158.0
+offset_bottom = 602.0
+flat = true
+script = ExtResource("3_7gu72")
+
+[node name="monke" type="Button" parent="." unique_id=376061775]
+offset_left = 4.0
+offset_top = 161.0
+offset_right = 318.0
+offset_bottom = 602.0
+flat = true
+script = ExtResource("4_neyee")
+
+[connection signal="pressed" from="Choose/choose" to="Choose/choose" method="choose_on_pressed"]
+[connection signal="pressed" from="gorp" to="gorp" method="gorp_on_pressed"]
+[connection signal="pressed" from="bucket" to="bucket" method="bucket_on_pressed"]
+[connection signal="pressed" from="monke" to="monke" method="monke_on_pressed"]

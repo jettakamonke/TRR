@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dxidsgjlf2ung"]
+
+[ext_resource type="Texture2D" uid="uid://dwsbko57ot1s0" path="res://Image Assets/characters/buketboi.png" id="1_i5qic"]
+[ext_resource type="Texture2D" uid="uid://drvhrxuqu7s3q" path="res://Image Assets/characters/gorptemp.png" id="2_12kdf"]
+[ext_resource type="Texture2D" uid="uid://b8vrxohvyg7tn" path="res://Image Assets/characters/monketemp.png" id="3_xwd2w"]
+[ext_resource type="Script" uid="uid://deqf12wquqeq3" path="res://texture_button.gd" id="4_12kdf"]
+
+[node name="Node2D" type="Node2D" unique_id=427767952]
+
+[node name="TextureButton" type="TextureButton" parent="." unique_id=665539032]
+offset_top = 7.0
+offset_right = 240.0
+offset_bottom = 247.0
+texture_normal = ExtResource("1_i5qic")
+texture_pressed = ExtResource("2_12kdf")
+texture_hover = ExtResource("3_xwd2w")
+script = ExtResource("4_12kdf")
+
+[connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]
