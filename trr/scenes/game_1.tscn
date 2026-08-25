@@ -14,10 +14,10 @@ position = Vector2(580, 315)
 texture = ExtResource("1_8lody")
 
 [node name="choose" type="Button" parent="Choose" unique_id=1528092388]
-offset_left = -206.0
-offset_top = -294.0
-offset_right = 219.0
-offset_bottom = -157.0
+offset_left = -200.0
+offset_top = -291.0
+offset_right = 225.0
+offset_bottom = -154.0
 script = ExtResource("2_6pa5a")
 
 [node name="gorp" type="Button" parent="." unique_id=1433859919]
