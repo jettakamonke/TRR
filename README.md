@@ -1,1 +1,0 @@
-luke likes men
