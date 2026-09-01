@@ -1,3 +1,33 @@
 [gd_scene format=3 uid="uid://c10sj08opcanj"]
 
+[ext_resource type="Texture2D" uid="uid://dy6aid8y675pb" path="res://Image Assets/test screen.png" id="1_n7mn6"]
+[ext_resource type="Texture2D" uid="uid://dpw7slitgoog8" path="res://Image Assets/test screen dungeon.png" id="2_u5nh0"]
+[ext_resource type="Texture2D" uid="uid://bdrrxh1mu052j" path="res://Image Assets/test screen hover dungeon.png" id="3_248hb"]
+[ext_resource type="Texture2D" uid="uid://twcmacqgcrxy" path="res://Image Assets/test screen town.png" id="4_qxv12"]
+[ext_resource type="Texture2D" uid="uid://c84goiuto1yy7" path="res://Image Assets/test screen hover town.png" id="5_lu6u8"]
+
 [node name="Node2D" type="Node2D" unique_id=1846292226]
+
+[node name="TestScreen" type="Sprite2D" parent="." unique_id=1844203914]
+position = Vector2(628, 305)
+texture = ExtResource("1_n7mn6")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=739165072]
+position = Vector2(628, 305)
+zoom = Vector2(0.6, 0.6)
+
+[node name="DungeonButton" type="TextureButton" parent="." unique_id=1108688089]
+offset_left = 883.0
+offset_top = 236.0
+offset_right = 1262.0
+offset_bottom = 629.0
+texture_normal = ExtResource("2_u5nh0")
+texture_hover = ExtResource("3_248hb")
+
+[node name="TownButton" type="TextureButton" parent="." unique_id=1877371317]
+offset_left = -342.0
+offset_top = 137.0
+offset_right = 118.0
+offset_bottom = 538.0
+texture_normal = ExtResource("4_qxv12")
+texture_hover = ExtResource("5_lu6u8")
